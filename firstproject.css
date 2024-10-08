@@ -1,0 +1,32 @@
+body{
+
+text-align: start;
+
+
+
+}
+
+div{
+    display: inline-block;
+}
+.first{
+    float: left;
+    width: 50%;
+}
+.second{
+    float: right;
+    width: 50%;
+}
+.parent::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+button{
+    box-shadow: 0px 0px 5px red inset,
+    2px 3px 5px green inset,
+    3px 4px 6px yellow inset,
+    6px 6px purple inset,
+    3px 3px 5px rgb(176, 4, 104) ;
+}
